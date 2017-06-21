@@ -1,0 +1,40 @@
+/*Página inicial : Tela com os botões de escolha ddas funções.*/
+
+
+#container {
+	width:  100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box {
+    width:  200px; 
+    height: 200px;
+    position: relative;
+    margin: 30px;
+	display: inline-block;
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+
+.box-1 {
+	background-color: #FFF;
+	border: 5px solid #1D2D6B;
+	
+}
+
+.box-1:hover {
+	background: #FFF;
+	border: 5px solid #BBDEFB;
+}
+
+#texto-link{
+	text-decoration: none;
+}
+
+.icons-fonte{
+	font-family: "arial", Times, serif;
+	font-size: 17px;
+	color: #1D2D6B;
+}

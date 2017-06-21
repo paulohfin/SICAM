@@ -1,0 +1,36 @@
+.nav-tabs{
+	border: 1px solid none;	
+	margin-left: 40px;
+}
+
+.formulario{
+	margin-top: 30px;
+}
+
+.botao{	
+	margin-left: 12px;
+}
+
+#login-senha{
+	margin-left: 30%;
+	margin-top: 10px;
+}
+
+#bota-concluir-login{
+	padding-left: 2px;
+}
+
+
+input:required:invalid {
+	background: #fff url(../img-formularios/asterisco.png) no-repeat 98% center;
+	background-size: 10px;
+    /*box-shadow: 0 0 5px #d45252;
+    border-color: #b03535;*/
+}
+
+input:required:valid{ 
+    background: #fff url(../img-formularios/valid.png) no-repeat 98% center;
+    background-size: 20px;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
